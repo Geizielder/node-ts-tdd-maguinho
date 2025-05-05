@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Geizielder/node-ts-tdd-maguinho#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.8"
+    "@types/node": "^22.15.3",
+    "git-commit-msg-linter": "^5.0.8",
+    "typescript": "^5.8.3"
   }
 }
