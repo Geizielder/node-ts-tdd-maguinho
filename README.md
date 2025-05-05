@@ -27,3 +27,6 @@
 > Farei um alteração por conta no projeto tentarei usar a biblioteca eslint-config-love no lugar da bilioteca eslint-config-standard-with-typescript que nessa momento foi descontinuada.
 
 
+
+> [!NOTE]
+> Até o momento a substitiçao da biblioteca eslint-config-standard-with-typescript por eslint-config-love funcionou perfeitamente.
