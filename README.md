@@ -19,8 +19,8 @@
 
 ### Git configuration essentials aliases
 
-    git config --global alias.s status -s
-    git config --global alias.c commit
-    git config --global alias.lg "log --oneline --decorate --all --graph"
+    s = !git status -s
+	c = !git add -A && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn %C(green)%cr'
 
 
