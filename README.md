@@ -9,12 +9,18 @@
     git config --global // configurações globais do usuário
     git config --local // configurações locais do repositório
 
-### Git configure essentials
+### Git configuration essentials
 
     git config --global --list // mostra configurações globais
     git config --global user.name "Seu nome"
     git config --global user.email "seuemail@.com"
     git config --global core.editor "code --wait" //editor favorito vscode
     git config --global init.defaultBranch main
+
+### Git configuration essentials aliases
+
+    git config --global alias.s status -s
+    git config --global alias.c commit
+    git config --global alias.lg "log --oneline --decorate --all --graph"
 
 
