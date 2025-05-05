@@ -22,5 +22,8 @@
     s = !git status -s
 	c = !git add -A && git commit -m
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn %C(green)%cr'
+ 
+> [!NOTE]
+> Farei um alteração por conta no projeto tentarei usar a biblioteca eslint-config-love no lugar da bilioteca eslint-config-standard-with-typescript que nessa momento foi descontinuada.
 
 
