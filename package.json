@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Geizielder/node-ts-tdd-maguinho/issues"
   },
-  "homepage": "https://github.com/Geizielder/node-ts-tdd-maguinho#readme"
+  "homepage": "https://github.com/Geizielder/node-ts-tdd-maguinho#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.8"
+  }
 }
