@@ -4,6 +4,17 @@
         "module": "CommonJS",
         "target": "ES2019",
         "esModuleInterop": true,
-        "allowJs": true
-    }
+        "allowJs": true,
+        "noImplicitAny": true,
+        "strict": true
+    },
+    "include": [
+        "src/**/*",
+        "*.ts",
+        "eslint.config.mjs"
+    ], // Ajuste para incluir seus arquivos fonte e o config do eslint
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
 }
